@@ -1,3 +1,4 @@
+//print the corresponding address of the student
 class Student{
     private String name;
     private int rollNo;
@@ -15,7 +16,7 @@ class Student{
         System.out.println("Address of "+name+" is "+address);
     }
 }
-public class week1q1{
+public class w1q2_Std_Add{
     public static void main(String[] args) {
         Student s1 = new Student("Saim", 117, "Aligarh");
         s1.display();
