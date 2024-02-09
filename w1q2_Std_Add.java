@@ -1,4 +1,5 @@
 //print the corresponding address of the student
+import java.util.Scanner;
 class Student{
     private String name;
     private int rollNo;
@@ -18,7 +19,13 @@ class Student{
 }
 public class w1q2_Std_Add{
     public static void main(String[] args) {
-        Student s1 = new Student("Saim", 117, "Aligarh");
+        System.out.println("Enter student name, roll.no and address:");
+        Scanner sc = new Scanner(System.in);
+        String n = sc.nextLine();
+        int r = sc.nextInt();
+        sc.nextLine();
+        String a = sc.nextLine();
+        Student s1 = new Student(n,r,a);
         s1.display();
     }
 }
