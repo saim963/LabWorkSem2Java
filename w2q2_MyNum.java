@@ -1,5 +1,5 @@
-import java.util.Scanner;
 // import java.lang.Math;
+import java.util.Scanner;
 public class w2q2_MyNum {
 
     static int ceil(double value){
