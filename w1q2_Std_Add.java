@@ -27,5 +27,6 @@ public class w1q2_Std_Add{
         String a = sc.nextLine();
         Student s1 = new Student(n,r,a);
         s1.display();
+        sc.close();
     }
 }

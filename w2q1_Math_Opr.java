@@ -39,5 +39,6 @@ public class w2q1_Math_Opr {
                 System.out.print("Invalid input!!");
                 break;
         }
+        sc.close();
     }
 }

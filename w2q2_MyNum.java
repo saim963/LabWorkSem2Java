@@ -8,5 +8,6 @@ public class w2q2_MyNum {
         System.out.println(Math.round(num));
         System.out.println(Math.ceil(num));
         System.out.println(Math.floor(num));
+        sc.close();
     }
 }
