@@ -1,10 +1,9 @@
-
 //java program for finding the sum, difference, product, quotient,minimum and maximum of any two integers
 import java.util.Scanner;
 public class w2q1_Math_Opr {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter two numbers to perform the operations: ");
+        System.out.println("Enter two numbers to perform such operations {+, -, *, /, m(min), M(Max)}:");
         int x = sc.nextInt();
         int y = sc.nextInt();
         System.out.print("Enter the operation you want to perform: +, -, *, /, m(min), M(Max): ");
