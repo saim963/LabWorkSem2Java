@@ -1,18 +1,28 @@
+import java.util.Scanner;
+
 public class w4q1FibNo {
     public static void main(String[] args) {
         //print first m fib numbers using do-while
         //fib -> sum of last two digits , here we're starting fib sequence with 0
-
+        System.out.print("Give a number(m) to print first m numbers of fibonacci series: ");
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        fib(m);
+        sc.close();
     }
-    static int[] fib(int m){
-        int[] series = new int[m];
-        if(m==1)    return new int[]{0};
-        if(m==2)    return new int[]{0,1};
-        int first=0;
-        int sec=1;
-        for(int i=2; i<=m; i++){
-
+    static void fib(int n){
+        if (n <= 0) {
+            System.out.println("Fibonacci series is not defined for non-positive numbers.");
         }
-        return series;
+        int prev = 0;
+        int curr = 1;
+        int i = 1;
+        do {
+            System.out.print(prev + " ");
+            int next = prev + curr;
+            prev = curr;
+            curr = next;
+            i++;
+        } while (i <= n);
     }
 }
