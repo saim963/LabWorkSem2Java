@@ -18,5 +18,6 @@ public class TestOddAndEven {
             x = sc.next();
         }
         System.out.println(obj1.conToStr());
+        sc.close();
     }
 }

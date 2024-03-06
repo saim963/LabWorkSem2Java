@@ -9,5 +9,6 @@ public class Main {
         double sl = in.nextDouble();
         Commission cm1 = new Commission(sl);
         System.out.println("Commission is: " + cm1.commission());
+        in.close();
     }
 }

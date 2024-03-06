@@ -18,7 +18,7 @@ class Commission{
             commission = sale*0.02;
 
         }
-        if (sale > 500.0 && sale < 5000.0) {
+        if (sale >= 500.0 && sale < 5000.0) {
             commission = sale * 0.05;
         }
         if (sale >= 5000.0) {
