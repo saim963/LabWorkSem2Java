@@ -11,7 +11,7 @@ public class Main {
         String text = scanner.nextLine();
 
         StringTokenizer tokenizer = new StringTokenizer(text, " ");
-
+//12 3
         int wordCount = tokenizer.countTokens();
         int sentenceCount = 0;
         int eCount = 0;
@@ -23,7 +23,7 @@ public class Main {
             } else if (ch == 'z') {
                 zCount++;
             }
-            if (ch == '.') {
+            if (ch == '.' || ch=='!' || ch=='?') {
                 sentenceCount++;
             }
         }
