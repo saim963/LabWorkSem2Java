@@ -1,4 +1,4 @@
-//java program for finding the sum, difference, product, quotient,minimum and maximum of any two integers
+//java program for finding the sum, difference, product, quotient, minimum and maximum of any two integers
 import java.util.Scanner;
 public class w2q1_Math_Opr {
     public static void main(String[] args) {
@@ -6,38 +6,40 @@ public class w2q1_Math_Opr {
         System.out.println("Enter two numbers to perform such operations {+, -, *, /, m(min), M(Max)}:");
         int x = sc.nextInt();
         int y = sc.nextInt();
-        System.out.print("Enter the operation you want to perform: +, -, *, /, m(min), M(Max): ");
-        char opr = sc.next().charAt(0);
-        switch (opr) {
-            case '+':
-                System.out.print("sum: "+(x + y));
-                break;
-            case '-':
-                System.out.print("difference: "+(x - y));
-                break;
-            case '*':
-                System.out.print("product: "+(x * y));
-                break;
-            case '/':
-                System.out.print("qoutient: "+(x / y));
-                break;
-            case 'm':
-                if (x < y) {
-                    System.out.print("minimum: "+x);
-                } else
-                    System.out.print("minimum: "+y);
-                break;
-            case 'M':
-                if (x > y) {
-                    System.out.print("Maximum: "+x);
-                } else
-                    System.out.print("Maximum: "+y);
-                break;
+        System.out.println("Enter the operation you want to perform: +, -, *, /, m(min), M(Max): ");
+        while(true){
+            char opr = sc.next().charAt(0);
+            if(opr=='X'||opr=='x')  break;
+            switch (opr) {
+                case '+':
+                    System.out.println("sum: "+(x + y));
+                    break;
+                case '-':
+                    System.out.println("difference: "+(x - y));
+                    break;
+                case '*':
+                    System.out.println("product: "+(x * y));
+                    break;
+                case '/':
+                    System.out.println("qoutient: "+(x / y));
+                    break;
+                case 'm':
+                    if (x < y) {
+                        System.out.println("minimum: "+x);
+                    } else
+                        System.out.println("minimum: "+y);
+                    break;
+                case 'M':
+                    if (x > y) {
+                        System.out.println("Maximum: "+x);
+                    } else
+                        System.out.println("Maximum: "+y);
+                    break;
 
-            default:
-                System.out.print("Invalid input!!");
-                break;
+                default:
+                    System.out.println("Invalid input!!");
+                    break;
+            }
         }
-        sc.close();
     }
 }

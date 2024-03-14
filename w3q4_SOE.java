@@ -8,6 +8,7 @@ public class w3q4_SOE {
         int sumEven = 0;
         for(int i=0; i<=n; i+=2){
             sumEven += i;
+            System.out.println(sumEven+" ");
         }
         System.out.print("Sum of all evens: "+sumEven);
         sc.close();

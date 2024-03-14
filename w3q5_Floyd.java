@@ -35,7 +35,7 @@ public class w3q5_Floyd {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        // numeric(n);
+//         numeric(n);
         binary(n);
         // diagonal(n);
         sc.close();

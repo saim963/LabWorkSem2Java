@@ -1,4 +1,3 @@
-// import java.lang.Math;
 import java.util.Scanner;
 public class w2q2_MyNum {
 
@@ -18,9 +17,27 @@ public class w2q2_MyNum {
         Scanner sc =  new Scanner(System.in);
         System.out.print("Enter a number to perform operations: ");
         double num = sc.nextDouble();
-        System.out.println(round(num));
-        // System.out.println(ceil(num));
-        // System.out.println(floor(num));
+        while(true) {
+            System.out.println("Choose operation to perform (R,F,C):");
+            char ch = sc.next().charAt(0);
+            if (ch == 'x' || ch == 'X') break;
+            switch (ch) {
+                case 'r':
+                case 'R':
+                    System.out.println("Round value: "+round(num));
+                    break;
+                case 'c':
+                case 'C':
+                    System.out.println("Ceil value: "+ceil(num));
+                    break;
+                case 'f':
+                case 'F':
+                    System.out.println("Floor value: "+floor(num));
+                    break;
+                default:
+                    System.out.println("Invalid Function call!! Try to use R,C,F or X");
+            }
+        }
         sc.close();
     }
 }

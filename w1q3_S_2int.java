@@ -6,7 +6,7 @@ public class w1q3_S_2int {
         Scanner sc = new Scanner(System.in);
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
-        System.out.println(n1+"+"+n2+"= "+(n1+n2));
+        System.out.print(n1+"+"+n2+"= "+(n1+n2));
         sc.close();
     }
 }
