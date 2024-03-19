@@ -20,9 +20,9 @@ public class w4q4Req {
         int x2 = s.nextInt();
         System.out.println("Enter y-coordinate of second rectangle: ");
         int y2 = s.nextInt();
-        Rectangle r1 = new Rectangle(h1, w1, x1, y1);
+        Rectangle r1 = new Rectangle(x1,y1,w1,h1);
         System.out.println("First rectangle is: " + r1);
-        Rectangle r2 = new Rectangle(h2, w2, x2, y2);
+        Rectangle r2 = new Rectangle(x2,y2,w2,h2);
         System.out.println("Second rectangle is: " + r2);
         Rectangle r3 = r1.intersection(r2);
         System.out.println("Intersecting rectangle is: " + r3);

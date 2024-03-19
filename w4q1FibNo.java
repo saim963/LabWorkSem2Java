@@ -13,15 +13,15 @@
             if (n <= 0) {
                 System.out.println("Fibonacci series is not defined for non-positive numbers.");
             }
-            int prev = 0;
-            int curr = 1;
-            int i = 1;
+            int prev = 0;//first
+            int curr = 1;//second
+            int count = 1;
             do {
                 System.out.print(prev + " ");
                 int next = prev + curr;
                 prev = curr;
                 curr = next;
-                i++;
-            } while (i <= n);
+                count++;
+            } while (count <= n);
         }
     }
