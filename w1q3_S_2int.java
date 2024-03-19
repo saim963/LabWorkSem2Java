@@ -1,4 +1,4 @@
-//sum of 2 ints
+//sum of 2 integers
 import java.util.Scanner;
 public class w1q3_S_2int {
     public static void main(String[] args){

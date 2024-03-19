@@ -21,7 +21,8 @@ public class w2q1_Math_Opr {
                     System.out.println("product: "+(x * y));
                     break;
                 case '/':
-                    System.out.println("qoutient: "+(x / y));
+                    if(y!=0) System.out.println("quotient: "+(x / y));
+                    else System.out.println("Denominator cannot be 0");
                     break;
                 case 'm':
                     if (x < y) {
@@ -35,7 +36,6 @@ public class w2q1_Math_Opr {
                     } else
                         System.out.println("Maximum: "+y);
                     break;
-
                 default:
                     System.out.println("Invalid input!!");
                     break;

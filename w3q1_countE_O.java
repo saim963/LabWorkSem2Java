@@ -8,7 +8,7 @@ public class w3q1_countE_O {
         System.out.println("Enter several  numbers, press 'q' to quit:");
         String x = sc.next();
         //if pressed any char except q ask again
-        while (!x.equals("q") && !x.equals("Q")) {
+        while (!x.equalsIgnoreCase("q") ) {
             try {
                 int input = Integer.parseInt(x);
                 if (input % 2 == 0) even++;
