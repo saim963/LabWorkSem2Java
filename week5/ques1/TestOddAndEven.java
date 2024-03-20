@@ -8,7 +8,7 @@ public class TestOddAndEven {
         Scanner sc =  new Scanner(System.in);
         System.out.println("Enter several  numbers, press 'q' to quit:");
         String x = sc.next();
-        while (!x.equals("q") && !x.equals("Q")) {
+        while (!x.equalsIgnoreCase("q")) {
             try {
                 int input = Integer.parseInt(x);
                 obj1.addNumber(input);
