@@ -1,6 +1,5 @@
 package Week8;
 
-
 import java.sql.*;
 
 public class Q1 {
