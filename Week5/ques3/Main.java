@@ -1,4 +1,4 @@
-package week5.ques3;
+package Week5.ques3;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;

@@ -1,4 +1,4 @@
-package week5.ques1;
+package Week5.ques1;
 
 public class OddAndEven {
     int countOfOdd;

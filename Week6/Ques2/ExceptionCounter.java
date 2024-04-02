@@ -1,4 +1,4 @@
-package WEEK6.Ques2;
+package Week6.Ques2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

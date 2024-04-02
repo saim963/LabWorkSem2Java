@@ -1,4 +1,4 @@
-package week5.ques2;
+package Week5.ques2;
 
 public class Circle {
     int x ;

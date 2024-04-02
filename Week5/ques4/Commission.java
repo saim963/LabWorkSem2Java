@@ -1,4 +1,4 @@
-package week5.ques4;
+package Week5.ques4;
 
 class Commission{
     double sale;

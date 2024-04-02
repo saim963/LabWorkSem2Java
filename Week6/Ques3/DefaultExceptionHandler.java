@@ -1,4 +1,4 @@
-package WEEK6.Ques3;
+package Week6.Ques3;
 
 public class DefaultExceptionHandler {
 

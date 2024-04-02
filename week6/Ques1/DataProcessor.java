@@ -1,4 +1,4 @@
-package WEEK6.Ques1;
+package Week6.Ques1;
 
 import java.io.*;
 import java.util.ArrayList;
