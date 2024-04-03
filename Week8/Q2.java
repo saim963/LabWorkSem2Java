@@ -11,13 +11,12 @@ public class Q2 {
             super(message);
         }
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Date String: ");
+        System.out.print("Enter Date String (dd-MM-yyyy): ");
         String dateString = sc.nextLine();
 
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
         try {
             formatter.parse(dateString);
             System.out.println("Date parsed successfully!");
