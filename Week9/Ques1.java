@@ -1,5 +1,5 @@
 package Week9;
-
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -13,13 +13,9 @@ public class Ques1 {
         }
     }
     public static void main(String[] args) throws FileNotFoundException {
-        String location = "E:\\Documents\\MCA\\Lab\\LabWorkSem2Java\\Week9\\test.txt";
-        try(FileReader fr = new FileReader(location)){
-            int i;
-            while ((i=fr.read())!=-1){
-                System.out.print((char) i + " ");
-            }
-            System.out.println();
+        try (BufferedReader br = new BufferedReader(new FileReader("E:\\Documents\\MCA\\Lab\\LabWorkSem2Java\\Week9\\test.txt"))) {
+            String line;
+            while ((line = br.readLine()) != null) System.out.print(line+"\n");
         }
         catch (IOException e){
             throw new FileNotThereException("File is not present!!");
@@ -27,6 +23,5 @@ public class Ques1 {
 //        finally {
 //            logger.info("File Closed - Might not been read!!");
 //        }
-
     }
 }
