@@ -18,7 +18,7 @@ public class Ques3 {
 
             if (input.equalsIgnoreCase("q")) {
                 break;
-            }
+            } 
             inputs.add(input);
         }
 
