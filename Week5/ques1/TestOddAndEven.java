@@ -1,7 +1,5 @@
 package Week5.ques1;
-
 import java.util.Scanner;
-
 public class TestOddAndEven {
     public static void main(String[] args) {
         OddAndEven obj1 = new OddAndEven();
@@ -21,3 +19,4 @@ public class TestOddAndEven {
         sc.close();
     }
 }
+

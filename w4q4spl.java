@@ -10,5 +10,6 @@ public class w4q4spl {
             System.out.println("One of the digit of the number is: " + rem);
             num = num / 10;
         }
+        sc.close();
     }
 }

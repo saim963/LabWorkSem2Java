@@ -28,6 +28,7 @@ public class Main {
         } else {
             System.out.println("INVALID! enter three digits from [0-9]");
         }
+        sc.close();
     }
 
 }

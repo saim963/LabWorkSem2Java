@@ -10,6 +10,7 @@ public class w4q3SuPro {
         int d = sc.nextInt();
         System.out.println("Sum of given four numbers: "+sum(a,b,c,d));
         System.out.print("Product of given four numbers: "+product(a,b,c,d));
+        sc.close();
     }
     static long sum(int a, int b, int c, int d){
         return (long)a+b+c+d;
