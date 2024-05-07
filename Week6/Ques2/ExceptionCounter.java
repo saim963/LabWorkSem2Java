@@ -31,4 +31,5 @@ public class ExceptionCounter {
             System.err.println("Error reading the Java file: " + e.getMessage());
         }
     }
+    
 }

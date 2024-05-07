@@ -19,4 +19,3 @@ public class TestOddAndEven {
         sc.close();
     }
 }
-

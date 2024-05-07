@@ -5,10 +5,10 @@ import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a sentence: ");
-        String text = scanner.nextLine();
+        String text = sc.nextLine();
 
         StringTokenizer tokenizer = new StringTokenizer(text, " ");
 
@@ -32,5 +32,6 @@ public class Main {
         System.out.println("Number of sentences: " + sentenceCount);
         System.out.println("Number of 'e' characters: " + eCount);
         System.out.println("Number of 'z' characters: " + zCount);
+        sc.close();
     }
 }
